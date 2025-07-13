@@ -220,6 +220,8 @@ aws elbv2 describe-target-health --target-group-arn [TARGET_GROUP_ARN]
 # Scale down when not needed
 aws ecs update-service --cluster medusa-ecs --service medusa-ecs --desired-count 0
 
+
+
 # Destroy infra to save costs
 terraform destroy
 ```
