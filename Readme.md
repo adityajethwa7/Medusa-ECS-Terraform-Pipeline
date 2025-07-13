@@ -226,6 +226,8 @@ aws ecs update-service --cluster medusa-ecs --service medusa-ecs --desired-count
 terraform destroy
 ```
 
+
+
 ---
 
 
